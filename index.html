@@ -1,0 +1,34 @@
+---
+layout: base
+---
+
+<div id="home">
+  <section id="hero">
+     <h1>Building scalable systems and <em>empowering</em> engineering teams.</h1>
+  </section>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I'm a software engineer with a passion for building robust, scalable systems. I focus on cloud infrastructure, distributed systems, and developer tooling.</p>
+    <p><a href="/about">Learn more about me</a></p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <p>I work on various open source projects and contribute to the developer community. Check out my <a href="https://github.com/{{ site.github_username }}">GitHub</a> for recent work.</p>
+  </section>
+
+  <section>
+    <h2>Blog</h2>
+    <p>I write about software engineering, cloud infrastructure, best practices, and lessons learned from building systems at scale.</p>
+    {% if site.posts.size > 0 %}
+    <p><strong>Latest:</strong>
+      {% for post in site.posts limit:1 %}
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      {% endfor %}
+    </p>
+    {% endif %}
+    <p>See all posts in the <a href="/blog">archive</a>.</p>
+  </section>
+
+</div>
