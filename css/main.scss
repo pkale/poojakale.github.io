@@ -73,6 +73,16 @@ a {
   padding: 0 $spacing-unit;
 }
 
+.wrapper {
+  max-width: $content-width;
+  margin: 0 auto;
+  padding: 0 $spacing-unit;
+}
+
+.page-content {
+  padding: $spacing-unit 0;
+}
+
 #content {
   min-height: 100vh;
   display: flex;

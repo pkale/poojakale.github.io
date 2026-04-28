@@ -1,13 +1,12 @@
 # Site settings
 title: Pooja Kale
-email: hello@poojakale.com
+email: pk576@cornell.edu
 description: >
   Software engineer passionate about building scalable systems,
   cloud infrastructure, and developer tools.
 baseurl: ""
 url: "https://pkale.github.io"
 rss: "/rss"
-twitter_username: pkale
 github_username: pkale
 permalink: /blog/:title/
 paginate: 5
