@@ -4,8 +4,8 @@ email: hello@poojakale.com
 description: >
   Software engineer passionate about building scalable systems,
   cloud infrastructure, and developer tools.
-baseurl: "/poojakale.github.io"
-url: "https://poojakale.github.io"
+baseurl: ""
+url: "https://pkale.github.io"
 rss: "/rss"
 twitter_username: pkale
 github_username: pkale
